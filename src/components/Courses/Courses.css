@@ -1,0 +1,55 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+.card-inner {
+    display: flex;
+    padding: 0rem;
+    flex-direction: column;
+    width: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    position: relative;
+    border-radius: 0.7rem;
+    box-shadow: 3px 2px 13px rgb(0 0 0 / 23%);
+}
+.heading{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    border-bottom: 2px solid rebeccapurple;
+    width: fit-content;
+}
+
+
+
+.card-img{
+    width: 100%;
+    border-top-left-radius: 0.6rem;
+    border-top-right-radius: 0.6rem;
+}
+.cta{
+    display: flex;
+    justify-content:end;
+}
+.cta-btn{
+    background-color: rgb(4, 28, 28);
+    padding: 5px 12px;
+    border-radius: 0.3rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin: 10px 20px;
+}
+.card-title{
+    margin-left: 0.8rem;
+}
+.free-courses{
+    color: gray;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    margin-left: 1rem;
+}

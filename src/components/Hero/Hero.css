@@ -1,0 +1,30 @@
+.main-container{
+    display: grid;
+grid-template-columns: 50% 50% ;
+}
+.hero-l{
+    background-color: rgb(255, 255, 255);
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    padding: 2rem;
+
+}
+.welcome{
+    margin: 10px;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.callToAction{
+    margin: 2rem;
+}
+.hero-r{
+    background-color: rgb(209, 234, 234);
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

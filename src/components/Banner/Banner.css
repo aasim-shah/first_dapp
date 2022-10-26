@@ -1,0 +1,8 @@
+.banner-container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
